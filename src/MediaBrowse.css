@@ -1,0 +1,22 @@
+.horizontalFlexBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.addMediaBox {
+  min-height: 100vh;
+  display: flex;
+}
+
+.subBox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.alignBox {
+  flex-grow: 1;
+  align-items: center;
+}

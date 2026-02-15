@@ -1,0 +1,11 @@
+.popupBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}

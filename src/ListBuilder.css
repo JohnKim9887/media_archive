@@ -1,0 +1,64 @@
+
+.defaultMargin {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.horizontalLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.builtMediaDisplay {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  min-width: 400px;
+  min-height: 400px;
+  flex-grow: 1;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.padding3rem {
+  padding-left :3rem;
+  padding-right :3rem;
+  padding-top :3rem;
+  padding-bottom :3rem;
+}
+
+.mediaBuilderSideBar { 
+  background-color: rgb(0, 252, 84);
+  min-width: 300px;
+  min-height: 300px;
+
+}
+
+
+.searchBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.suggestSearch ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.suggestSearch button {
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
