@@ -1,4 +1,4 @@
-# media archive is an app for reviewing medias and managing all your potential favourite medias
+# WatchlistManager (former MediaArchive) is an app for reviewing medias and managing all your potential favourite medias
 It is design to be flexible, yet easy to use. By using extensive tag system, users can find and manage their favourite media.
 
 ## How it was made
